@@ -14,3 +14,6 @@ a{color:var(--acento)}
 ul{padding-left:22px}
 .en{margin-top:44px;padding-top:18px;border-top:1px solid var(--linea)}
 footer{margin-top:50px;padding-top:16px;padding-bottom:40px;border-top:1px solid var(--linea);font-size:14px;color:var(--suave)}
+.redes{list-style:none;padding:0;display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.redes a{display:block;padding:12px 14px;border:1px solid var(--linea);border-radius:10px;text-decoration:none;color:var(--tinta);font-weight:600}
+.redes a:hover{border-color:var(--acento);color:var(--acento)}
